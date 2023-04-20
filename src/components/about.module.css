@@ -1,0 +1,66 @@
+.wrapdiv{
+    background-color: black;
+    width: 90vw;
+    overflow: hidden;
+    padding: 10vh 5vw 0px 5vw;
+    height: 90vh;
+}
+
+.wrap{
+    text-align: center;
+}
+
+.about{
+    background: linear-gradient(139.66deg, #ff70f0 -17.01%, rgba(36, 36, 36, 0.25) 81.18%);
+    width: 450px;
+    text-align: center;
+    border-radius: 100px;
+    padding: 4vh 0px;
+    margin: 40px auto;
+    color: rgb(255, 255, 255);
+}
+
+.about img{
+    max-width: 100px;
+}
+
+
+
+.about .content{
+    max-width: 81vw;
+    width: 350px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 60px 60px ;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .about .content{
+        font-size: 14px;
+        line-height: 25px;
+        padding: 30px 40px;
+    }
+
+    .wrap img{
+        padding-top: 5vh;
+        width: 100px;
+    }
+
+    
+}
+
+@media screen and (max-width:800px){
+    .about .content{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .wrap img{
+        padding-top: 5vh;
+        width: 100px;
+    }
+}

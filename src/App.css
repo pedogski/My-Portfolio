@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    font-family: "Josefin";
+    padding: 0px;
+}
+
+.controlwidth{
+    max-width: 1400px;
+    margin: auto;
+}

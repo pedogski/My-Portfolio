@@ -1,0 +1,20 @@
+import "./footer.css"
+import instagram from "../img/instagram.png"
+import linkedin from "../img/linkedin.png"
+import github from "../img/github.png"
+import twitter from "../img/twitter.png"
+
+
+const Footer =() =>{
+    return(
+        <div className="footer">
+            <a href="https://twitter.com/MargaretOluwad1"><img src={twitter} alt="" width={30}/></a>
+            <a href="https://www.instagram.com/margie.agbo/"><img src={instagram} alt="" width={30}/></a>
+            <a href="https://www.linkedin.com/in/margaret-oluwadareea/"><img src={linkedin} alt="" width={30}/></a>
+            <a href="https://github.com/MargaretOluwadare"><img src={github} alt="" width={30}/></a>
+        </div>
+    )
+}
+
+
+export default Footer
